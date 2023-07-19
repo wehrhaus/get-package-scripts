@@ -26,7 +26,7 @@ Object.keys(scripts).forEach(scriptName => {
   const name = `\x1b[32m${scriptName}\x1b[0m`;
   const desc = `\x1b[34m${scripts[scriptName]}\x1b[0m`;
   console.log(`${name}: ${desc}`);
-}) ?? console.log('\x1b[31mNo scripts defined\x1b[0m');
+});
 
 module.exports = {
   getScriptsObjectFromPackage,
