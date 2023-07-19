@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "List scripts defined in any package.json file within your project from the terminal.",
   "bin": {
-    "getPackageScripts": "./bin/get-package-scripts.js",
-    "getpackagescripts": "./bin/get-package-scripts.js"
+    "getPackageScripts": "bin/get-package-scripts.js",
+    "getpackagescripts": "bin/get-package-scripts.js"
   },
   "scripts": {
     "dev": "ts-node ./src/get-package-scripts.ts",
@@ -24,5 +24,13 @@
   "main": "index.js",
   "devDependencies": {
     "jest": "29.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wehrhaus/get-package-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wehrhaus/get-package-scripts/issues"
+  },
+  "homepage": "https://github.com/wehrhaus/get-package-scripts#readme"
 }
