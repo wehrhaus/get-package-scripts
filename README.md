@@ -1,6 +1,20 @@
 # get-package-scripts
 List scripts defined in any package.json file within your project from the terminal.
 
+# Installing
+
+## npm
+
+```sh
+npm install @wehrhaus/get-package-scripts --save-dev
+```
+
+## yarn
+
+```sh
+yarn add @wehrman/get-package-scripts --dev
+```
+
 ## Example
 ```package.json
 {
