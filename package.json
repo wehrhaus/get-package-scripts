@@ -1,6 +1,6 @@
 {
   "name": "@wehrhaus/get-package-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List scripts defined in any package.json file within your project from the terminal.",
   "bin": {
     "getPackageScripts": "bin/get-package-scripts.js",
