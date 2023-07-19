@@ -1,0 +1,28 @@
+{
+  "name": "@wehrhaus/get-package-scripts",
+  "version": "1.0.0",
+  "description": "List scripts defined in any package.json file within your project from the terminal.",
+  "bin": {
+    "getPackageScripts": "./bin/get-package-scripts.js",
+    "getpackagescripts": "./bin/get-package-scripts.js"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/get-package-scripts.ts",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "package.json scripts",
+    "npm scripts listing",
+    "command line interface",
+    "development workflow",
+    "project automation",
+    "script management"
+  ],
+  "author": "Justin Wehrman (jwehrman@wehr.haus)",
+  "license": "ISC",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "29.6.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "package-mock",
+  "version": "0.0.0",
+  "description": "A mock package.json file for testing get-package-scripts",
+  "scripts": {
+    "test-script-one": "test-script-one-action",
+    "test-script-two": "test-script-two-action",
+    "test-script-three": "test-script-three-action"
+  },
+  "author": "Justin Wehrman (jwehrman@wehr.haus)",
+  "license": "ISC"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "package-mock",
+  "version": "0.0.0",
+  "description": "A mock package.json file for testing get-package-scripts",
+
+  "author": "Justin Wehrman (jwehrman@wehr.haus)",
+  "license": "ISC"
+}
